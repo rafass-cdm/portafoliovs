@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Galería de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Portafolio</h1>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#gallery" class="active">Galería</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Galería Completa</h2>
+            <p>Sesiones de fotos atemporal</p>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="gallery-container">
+            <!-- Las imágenes se cargarán dinámicamente aquí -->
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <button class="close-btn">✕</button>
+        <button class="prev-btn">‹</button>
+        <button class="next-btn">›</button>
+        <img class="lightbox-image" src="" alt="Imagen ampliada">
+        <div class="lightbox-counter">
+            <span class="current">0</span> / <span class="total">0</span>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>Acerca del Portafolio</h2>
+        <p>Este portafolio comparte imágenes de grandes lugares que, a mi vista, cuentan detalles y cuentan historias. Exploro espacios de naturaleza y humanidad, donde cada lugar tiene un espacio especial, un ángulo o una toma que lo hace destacar y lo hace suyo. Donde se representa la esencia del momento, y yo simplemente lo capturo.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contacto</h2>
+        <p>¿Te interesa colaborar? Ponte en contacto conmigo</p>
+        <div class="contact-info">
+            <a href="mailto:rafaavalle0@gmail.com" class="btn btn-primary">Email</a>
+            <a href="https://wa.me/5573219085" class="btn btn-secondary">WhatsApp</a>
+            <a href="https://instagram.com/rafael_.vm" class="btn btn-secondary">Instagram</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Portafolio de Fotos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
